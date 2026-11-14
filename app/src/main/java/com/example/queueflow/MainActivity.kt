@@ -1,5 +1,6 @@
 package com.example.queueflow
 
+import android.R.attr.text
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -408,11 +409,10 @@ fun QueueHomeScreen() {
 
                     Card(
                         modifier = Modifier.fillMaxWidth(),
+                        shape = RoundedCornerShape(24.dp),
                         colors = CardDefaults.cardColors(
-                            containerColor =
-                                MaterialTheme.colorScheme.primaryContainer
-                        ),
-                        shape = RoundedCornerShape(24.dp)
+                            containerColor = MaterialTheme.colorScheme.primary
+                        )
                     ) {
                         Column(
                             modifier = Modifier.padding(20.dp)
