@@ -71,3 +71,18 @@ QueueFlow is being developed to strengthen practical Android development skills 
 **Project:** QueueFlow  
 **Platform:** Android  
 **Status:** In Development
+
+
+## Development Roadmap
+
+- [x] Initial Android project setup
+- [x] Welcome and login screens
+- [x] OTP demonstration flow
+- [x] Bank, branch, and service selection
+- [x] Digital queue token generation
+- [ ] Improve authentication and validation
+- [ ] Implement persistent data storage
+- [ ] Integrate a backend API
+- [ ] Add real-time queue updates
+- [ ] Test and prepare for release
+
